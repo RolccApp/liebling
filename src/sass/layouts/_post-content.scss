@@ -1,5 +1,5 @@
 .l-post-content {
-  color: #663300;
+  color: #202020;
   padding-bottom: 15px;
 
   @include respond-to('medium') {
@@ -293,6 +293,7 @@
   }
 
   blockquote {
+    color: #009999;
     position: relative;
     letter-spacing: 0.2px;
     line-height: 1.5;
