@@ -43,9 +43,6 @@ This header template is shared across all the pages.
                   </a>
                 </li>
               {{/if}}
-              {{#if @site.navigation}}
-                {{navigation}}
-              {{/if}}
               {{#if @site.secondary_navigation}}
                 <li class="more">
                   <span>
@@ -55,6 +52,9 @@ This header template is shared across all the pages.
                     </a>
                   </span>
                 </li>
+              {{/if}}
+              {{#if @site.navigation}}
+                {{navigation}}
               {{/if}}
               <li class="submenu-option js-submenu-option">
                 <button class="m-icon-button in-menu-main more js-toggle-submenu" aria-label="{{t "Open submenu"}}">
